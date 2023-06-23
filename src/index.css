@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .cell {
+    @apply border-4 flex justify-center items-center text-6xl font-semibold;
+  }
+
+  .-top {
+    @apply border-t-0;
+  }
+
+  .-right {
+    @apply border-r-0;
+  }
+
+  .-bottom {
+    @apply border-b-0;
+  }
+
+  .-left {
+    @apply border-l-0;
+  }
+}
